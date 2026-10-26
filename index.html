@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buavita — Sehatnya Rasa Buah!</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#fff;color:#123b78;line-height:1.6}
+nav{position:sticky;top:0;z-index:10;background:#fff;display:flex;align-items:center;justify-content:space-between;padding:16px 7%;box-shadow:0 3px 18px #123b7820}
+.logo{font-size:30px;font-weight:900;font-style:italic;color:#12469a}
+nav a{color:#123b78;text-decoration:none;font-weight:bold;margin:0 10px}
+nav a:hover{color:#f1b800}
+.hero{min-height:540px;padding:70px 8%;display:flex;align-items:center;justify-content:space-between;background:linear-gradient(135deg,#dff8ff,#fff4a9,#dff8d7);overflow:hidden}
+.hero-text{max-width:580px}.tag{color:#229456;font-weight:800;letter-spacing:1px}
+h1{font-size:60px;line-height:1.05;margin:15px 0;color:#103d82}
+h1 span{color:#f0ad00}.hero p{font-size:19px;color:#4f6d8f;margin-bottom:25px}
+.btn{display:inline-block;background:#ffd333;color:#123b78;text-decoration:none;font-weight:800;padding:13px 25px;border-radius:30px}
+.hero-art{font-size:130px;background:#ffe05a;width:330px;height:330px;border-radius:50%;display:grid;place-items:center;box-shadow:0 25px 50px #d9972a40}
+section{padding:75px 8%}
+.heading{text-align:center;margin-bottom:35px}.heading h2{font-size:38px;color:#123e83}.heading p{color:#68809c}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.card{background:white;border-radius:22px;padding:24px;text-align:center;box-shadow:0 10px 30px #123b7815;border:1px solid #edf2f8}
+.pic{height:160px;border-radius:18px;display:grid;place-items:center;font-size:85px;margin-bottom:15px}
+.orange{background:#fff0d5}.apple{background:#ffe1e5}.grape{background:#eee3ff}.mango{background:#fff4bd}
+.card h3{font-size:20px}.card p{color:#71849a;font-size:14px;margin:6px 0 12px}.price{font-weight:900;color:#123e83}
+.about{background:#e9faff;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+.about h2{font-size:40px;margin:8px 0}.about p{color:#55708f}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:18px}.feature{background:#fff;border-radius:20px;padding:25px;text-align:center;box-shadow:0 8px 25px #123b7810}.feature b{display:block;margin:7px}
+.reviews{background:#f8fcff}.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.review{background:#fff8d8;padding:25px;border-radius:20px;text-align:center}.stars{color:#f0aa00;font-size:22px}.review p{color:#607a98;margin-top:8px}
+.contact{text-align:center;background:linear-gradient(120deg,#1777d0,#3dbb6a);color:white}.contact h2{font-size:38px}.contact p{margin:8px 0 22px}.contact .btn{background:#ffd333}
+footer{background:#103e77;color:#fff;text-align:center;padding:25px}
+@media(max-width:800px){nav div:nth-child(2){display:none}.hero{padding:55px 7%;text-align:center}.hero-art{display:none}h1{font-size:44px}.products{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr}.review-grid{grid-template-columns:1fr}}
+@media(max-width:500px){.products{grid-template-columns:1fr}.features{grid-template-columns:1fr}section{padding:55px 5%}}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Buavita</div>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#produk">Produk</a>
+    <a href="#ulasan">Ulasan</a>
+    <a href="#kontak">Kontak</a>
+  </div>
+</nav>
+
+<section class="hero" id="home">
+  <div class="hero-text">
+    <div class="tag">🍃 SEGAR • CERIA • PRAKTIS</div>
+    <h1>Buavita,<br><span>Sehatnya Rasa Buah!</span></h1>
+    <p>Nikmati kesegaran rasa buah untuk menemani aktivitasmu setiap hari.</p>
+    <a class="btn" href="#produk">Lihat Produk →</a>
+  </div>
+  <div class="hero-art">🥭</div>
+</section>
+
+<section id="tentang" class="about">
+  <div>
+    <div class="tag">TENTANG BUAVITA</div>
+    <h2>Segar di setiap tegukan.</h2>
+    <p>Buavita merupakan produk minuman sari buah yang hadir dengan berbagai pilihan rasa untuk menemani aktivitas sehari-hari.</p>
+  </div>
+  <div class="features">
+    <div class="feature">🍊<b>Rasa Buah</b><small>Menyegarkan</small></div>
+    <div class="feature">🥤<b>Praktis</b><small>Mudah dibawa</small></div>
+    <div class="feature">🌈<b>Banyak Pilihan</b><small>Beragam rasa</small></div>
+    <div class="feature">✨<b>Teman Aktivitas</b><small>Cocok kapan saja</small></div>
+  </div>
+</section>
+
+<section id="produk">
+  <div class="heading">
+    <div class="tag">PILIHAN PRODUK</div>
+    <h2>Rasa Favorit Buavita</h2>
+    <p>Pilih rasa buah yang kamu suka.</p>
+  </div>
+  <div class="products">
+    <div class="card"><div class="pic orange">🍊</div><h3>Buavita Jeruk</h3><p>Rasa jeruk yang segar.</p><div class="price">Favorit ⭐</div></div>
+    <div class="card"><div class="pic apple">🍎</div><h3>Buavita Apel</h3><p>Manis dan menyegarkan.</p><div class="price">Favorit ⭐</div></div>
+    <div class="card"><div class="pic grape">🍇</div><h3>Buavita Anggur</h3><p>Rasa anggur yang nikmat.</p><div class="price">Favorit ⭐</div></div>
+    <div class="card"><div class="pic mango">🥭</div><h3>Buavita Mangga</h3><p>Rasa mangga tropis.</p><div class="price">Favorit ⭐</div></div>
+  </div>
+</section>
+
+<section class="reviews" id="ulasan">
+  <div class="heading">
+    <div class="tag">TESTIMONI</div>
+    <h2>Kata Pelanggan</h2>
+  </div>
+  <div class="review-grid">
+    <div class="review"><div class="stars">★★★★★</div><b>“Rasanya enak dan segar.”</b><p>— Dewi</p></div>
+    <div class="review"><div class="stars">★★★★★</div><b>“Cocok diminum saat beraktivitas.”</b><p>— Lathif</p></div>
+    <div class="review"><div class="stars">★★★★★</div><b>“Suka banget sama rasa buahnya!”</b><p>— Kalila</p></div>
+  </div>
+</section>
+
+<section class="contact" id="kontak">
+  <h2>Yuk, tetap segar! 🍹</h2>
+  <p>Terima kasih sudah mengunjungi website Buavita.</p>
+  <a class="btn" href="mailto:info@buavita.local">Email Kami</a>
+</section>
+
+<footer>
+  <b>Buavita</b><br>
+  <small>Website proyek sekolah • HTML & CSS</small>
+</footer>
+
+</body>
+</html>
